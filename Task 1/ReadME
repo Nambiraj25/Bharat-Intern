@@ -1,0 +1,7 @@
+Task -1 HOUSE PRICE PREDICTION using DDN 
+model architecture using functional API
+first hidder layer with 64 neurons and activation is relu 
+Dropout value is 0.8
+second hidder layer with 32 neurons and activation is relu
+Dropout Value is 0.5 
+last layers is output layer with 1 neuron and activation is relu
