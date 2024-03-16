@@ -1,0 +1,7 @@
+Hello Everyone,I completed my second task as a Bharat intern, which was Iris Flower Classification. To train my model, 
+I used custom training with GradientTape and the autograph function to convert code from eager mode to graph mode. 
+I used the Function API to create layers. The first hidden layer has 128 neurons with a ReLU activation and a dropout value of 0.8. 
+The second hidden layer has 64 neurons with a ReLU activation and a dropout value of 0.5. 
+The last layer is a dense layer with 3 neurons and a softmax activation. 
+
+For this model, I used SparseCategoricalCrossentropy loss as the loss function, SparseCategoricalCrossentropy accuracy as metrics, and Adam as the optimizer. 
